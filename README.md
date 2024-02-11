@@ -27,33 +27,31 @@ The provided CSV file contains historical financial market data, likely pertaini
 d. Dataset Split info<br><br>
 The dataset comprises historical financial market data for Tesla stock, encompassing opening, highest, lowest, closing, adjusted closing prices, and trading volume, restricted to the first 500 entries. For model training and evaluation, the data undergoes an 80-20 split using the `train_test_split` function from `sklearn.model_selection`, with 80% allocated for training and 20% for testing. This split, governed by a random state of 42, ensures reproducibility and consistency in model evaluation. Consequently, 400 entries are utilized for training, while the remaining 100 entries serve for assessing the model's predictive performance on unseen data, facilitating insights into its generalization capabilities.
 <br><br>
- e. Approach<br><br>
+e) Approach<br><br>
 The approach involves building a predictive model to forecast whether a stock's closing price will increase or decrease compared to the previous day. This is a binary classification task where the dataset is preprocessed to include features such as opening, high, low, and volume, along with a binary label indicating whether the closing price increased (1) or decreased (0) relative to the previous day. The XGBoost algorithm is employed for modeling due to its effectiveness in classification tasks. The dataset is then split into training and testing sets, with 80% of the data used for training and 20% for testing. Model performance is evaluated using accuracy and F1-score metrics, providing insights into the model's predictive capabilities. Additionally, the actual versus predicted labels are visualized to further analyze the model's performance. Overall, the approach emphasizes leveraging machine learning techniques and historical stock data to develop a robust predictive model for guiding investment decisions.
 <br><br>
-f. Results<br><br>
+f) Results<br><br>
 Accuracy: The accuracy of the model on the test set is calculated to be approximately 0.72, indicating that around 72% of the predictions are correct.
 F1-score: The F1-score of the model on the test set is approximately 0.73, providing a balanced measure of precision and recall.
 <br><br>
-g. Dependencies<br><br>
+g) Dependencies<br><br>
 1. **NumPy:** For array manipulation and mathematical operations.<br>
 2. **Pandas:** For data manipulation and analysis using DataFrames.<br>
 3. **scikit-learn:** For machine learning algorithms and evaluation metrics.<br>
 4. **XGBoost:** For gradient boosting algorithm implementation.<br>
 5. **Matplotlib:** For data visualization.<br><br>
-h. Performance and Accuracy<br>
+h) Performance and Accuracy<br><br>
 **Accuracy:** The accuracy of the model on the test set is approximately 72%. This means that around 72% of the predictions made by the model are correct.<br>
 **F1-score:** The F1-score of the model on the test set is approximately 73%. The F1-score provides a balance between precision and recall and is particularly useful for imbalanced datasets or binary classification tasks.<br>
 Overall, the model demonstrates moderate performance in predicting whether a stock's closing price will increase or decrease compared to the previous day, achieving an accuracy and F1-score of approximately 72% and 73%, respectively.<br><br>
-i. F1 Score<br>
+i) F1 Score<br>
 The F1-score of the model on the test set is approximately 73%. The F1-score provides a balance between precision and recall and is particularly useful for imbalanced datasets or binary classification<br><br>
- j. Novelty Factor
+j) Novelty Factor
 <br><br>
 The novelty factor in this approach lies in the combination of features utilized for predicting stock price movements, the adoption of the XGBoost algorithm for modeling, and the use of accuracy and F1-score metrics for evaluation. These elements contribute to a comprehensive and effective approach to address the problem of stock price prediction.<br><br>
- k. References<br>
- 
-
-
-
+k) References<br>
+- GeekforGeeks<br>
+- StackOverFlow<br>
 
 
 
