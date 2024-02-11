@@ -39,7 +39,8 @@ g) Dependencies<br><br>
 2. **Pandas:** For data manipulation and analysis using DataFrames.<br>
 3. **scikit-learn:** For machine learning algorithms and evaluation metrics.<br>
 4. **XGBoost:** For gradient boosting algorithm implementation.<br>
-5. **Matplotlib:** For data visualization.<br>
+5. **Matplotlib:** For data visualization.<br><br>\
+
 h) Performance and Accuracy<br><br>
 **Accuracy:** The accuracy of the model on the test set is approximately 72%. This means that around 72% of the predictions made by the model are correct.<br>
 **F1-score:** The F1-score of the model on the test set is approximately 73%. The F1-score provides a balance between precision and recall and is particularly useful for imbalanced datasets or binary classification tasks.<br>
@@ -52,4 +53,3 @@ The novelty factor in this approach lies in the combination of features utilized
 k) References<br>
 - GeekforGeeks<br>
 - StackOverFlow
-- 
