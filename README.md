@@ -24,7 +24,7 @@ b) Introduction<br><br>
 c) Dataset Description<br><br>
 The provided CSV file contains historical financial market data, likely pertaining to a specific financial instrument such as a stock or index. It includes information for each trading day, spanning multiple columns. The "Date" column denotes the date of the trading day, while the "Open", "High", "Low", and "Close" columns represent the opening, highest, lowest, and closing prices, respectively, of the financial instrument on that particular day. The "Adj Close" column typically signifies the adjusted closing price, which accounts for any corporate actions such as dividends or stock splits. Lastly, the "Volume" column indicates the total volume of trading activity, representing the number of shares or contracts traded during the trading day. This dataset provides valuable insights into the historical price movements and trading activity of the financial instrument, enabling various analyses such as trend identification, volatility assessment, and trading volume analysis.
 <br><br>
-d. Dataset Split info<br><br>
+d) Dataset Split info<br><br>
 The dataset comprises historical financial market data for Tesla stock, encompassing opening, highest, lowest, closing, adjusted closing prices, and trading volume, restricted to the first 500 entries. For model training and evaluation, the data undergoes an 80-20 split using the `train_test_split` function from `sklearn.model_selection`, with 80% allocated for training and 20% for testing. This split, governed by a random state of 42, ensures reproducibility and consistency in model evaluation. Consequently, 400 entries are utilized for training, while the remaining 100 entries serve for assessing the model's predictive performance on unseen data, facilitating insights into its generalization capabilities.
 <br><br>
 e) Approach<br><br>
@@ -39,7 +39,7 @@ g) Dependencies<br><br>
 2. **Pandas:** For data manipulation and analysis using DataFrames.<br>
 3. **scikit-learn:** For machine learning algorithms and evaluation metrics.<br>
 4. **XGBoost:** For gradient boosting algorithm implementation.<br>
-5. **Matplotlib:** For data visualization.<br><br>
+5. **Matplotlib:** For data visualization.<br>
 h) Performance and Accuracy<br><br>
 **Accuracy:** The accuracy of the model on the test set is approximately 72%. This means that around 72% of the predictions made by the model are correct.<br>
 **F1-score:** The F1-score of the model on the test set is approximately 73%. The F1-score provides a balance between precision and recall and is particularly useful for imbalanced datasets or binary classification tasks.<br>
@@ -51,8 +51,5 @@ j) Novelty Factor
 The novelty factor in this approach lies in the combination of features utilized for predicting stock price movements, the adoption of the XGBoost algorithm for modeling, and the use of accuracy and F1-score metrics for evaluation. These elements contribute to a comprehensive and effective approach to address the problem of stock price prediction.<br><br>
 k) References<br>
 - GeekforGeeks<br>
-- StackOverFlow<br>
-
-
-
-
+- StackOverFlow
+- 
