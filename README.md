@@ -11,6 +11,7 @@ a)Team Details Contact info
     1) Abhishek Goyal - 9166403437 <br>
     2) Dheeraj Vishwakarma - 8104430962 <br>
     3) Pratik Vishwakarma - 8169438869 <br>
+    <br>
 b) Introduction<br><br>
     In today's volatile stock market, predicting price movements is crucial for investors to make informed decisions. This model aims to forecast whether a stock's closing price will         rise or fall compared to the previous day, using key metrics like opening price, high, low, and volume. Leveraging machine learning techniques and historical data, our model provides     valuable insights to guide investment strategies.<br><br>
 **Problem Statement** The goal is to develop a binary classification model that predicts whether a stock's closing price will increase (1) or decrease (0) relative to the preceding day       based on its opening, high, low, and volume metrics.<br><br>
@@ -38,6 +39,22 @@ g. Dependencies<br><br>
 2. **Pandas:** For data manipulation and analysis using DataFrames.<br>
 3. **scikit-learn:** For machine learning algorithms and evaluation metrics.<br>
 4. **XGBoost:** For gradient boosting algorithm implementation.<br>
-5. **Matplotlib:** For data visualization.<br>
+5. **Matplotlib:** For data visualization.<br><br>
+h. Performance and Accuracy<br>
+**Accuracy:** The accuracy of the model on the test set is approximately 72%. This means that around 72% of the predictions made by the model are correct.<br>
+**F1-score:** The F1-score of the model on the test set is approximately 73%. The F1-score provides a balance between precision and recall and is particularly useful for imbalanced datasets or binary classification tasks.<br>
+Overall, the model demonstrates moderate performance in predicting whether a stock's closing price will increase or decrease compared to the previous day, achieving an accuracy and F1-score of approximately 72% and 73%, respectively.<br><br>
+i. F1 Score<br>
+The F1-score of the model on the test set is approximately 73%. The F1-score provides a balance between precision and recall and is particularly useful for imbalanced datasets or binary classification<br><br>
+ j. Novelty Factor
+<br><br>
+The novelty factor in this approach lies in the combination of features utilized for predicting stock price movements, the adoption of the XGBoost algorithm for modeling, and the use of accuracy and F1-score metrics for evaluation. These elements contribute to a comprehensive and effective approach to address the problem of stock price prediction.<br><br>
+ k. References<br>
+ 
+
+
+
+
+
 
 
