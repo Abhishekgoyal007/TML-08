@@ -39,7 +39,7 @@ g) Dependencies<br><br>
 2. **Pandas:** For data manipulation and analysis using DataFrames.<br>
 3. **scikit-learn:** For machine learning algorithms and evaluation metrics.<br>
 4. **XGBoost:** For gradient boosting algorithm implementation.<br>
-5. **Matplotlib:** For data visualization.<br><br>\
+5. **Matplotlib:** For data visualization.<br><br>
 
 h) Performance and Accuracy<br><br>
 **Accuracy:** The accuracy of the model on the test set is approximately 72%. This means that around 72% of the predictions made by the model are correct.<br>
