@@ -1,5 +1,5 @@
 # TML-08
-Ps :- Build a model to predict whether a stock's closing price will go up or down compared to the previous day based on its opening, high, low, and volume. Metrics: Accuracy, F1-score.
+Build a model to predict whether a stock's closing price will go up or down compared to the previous day based on its opening, high, low, and volume. Metrics: Accuracy, F1-score.
 <br>
 <br>
 a)Team Details Contact info :
